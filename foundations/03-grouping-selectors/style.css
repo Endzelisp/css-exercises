@@ -1,4 +1,5 @@
-.btn-text-style {
+.black-btn,
+.yellow-btn {
   font-size: 28px;
   font-family: helvetica, 'Times New Roman', sans-serif;
 }
@@ -6,4 +7,8 @@
 .black-btn {
   background-color: #000000;
   color: #ffffff
+}
+
+.yellow-btn {
+  background-color: #eeff00
 }
