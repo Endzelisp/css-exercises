@@ -18,18 +18,14 @@ body {
   box-shadow: 0 0 8px rgba(0,0,0,.1);
 }
 
-.header__left-side, .header__left-side ul {
+.header__left-side, .header__right-side, .header__left-side ul {
   display: flex;
+  align-items: center;
   gap: 15px;
 }
 
 .header__left-side ul {
   padding: 0;
-}
-
-.header__right-side {
-  display: flex;
-  gap: 15px;
 }
 
 .profile-image {
