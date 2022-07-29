@@ -29,6 +29,7 @@ body {
 
 .header__right-side {
   display: flex;
+  gap: 15px;
 }
 
 .profile-image {
@@ -40,6 +41,8 @@ body {
 }
 
 .logo {
+  display: flex;
+  align-self: center;
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
