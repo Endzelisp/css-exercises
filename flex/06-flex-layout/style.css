@@ -33,7 +33,7 @@ ul {
   padding: 0;
 }
 
-ul li a {
+.left-links li a, .right-links li a {
   text-decoration: none;
   color: rgb(56, 56, 56);
   margin: 0 10px;
@@ -41,7 +41,9 @@ ul li a {
 
 .container {
   display: flex;
+  height: inherit;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .header, .footer {
