@@ -21,11 +21,7 @@ body {
 .header__left-side, .header__right-side, .header__left-side ul {
   display: flex;
   align-items: center;
-  gap: 15px;
-}
-
-.header__left-side ul {
-  padding: 0;
+  gap: 16px;
 }
 
 .profile-image {
@@ -61,4 +57,5 @@ a {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
