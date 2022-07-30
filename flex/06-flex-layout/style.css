@@ -36,6 +36,7 @@ ul {
 ul li a {
   text-decoration: none;
   color: rgb(56, 56, 56);
+  margin: 0 10px;
 }
 
 .container {
@@ -49,4 +50,9 @@ ul li a {
 
 .header, .footer {
   justify-content: space-between;
+  padding: 15px 0;
+}
+
+.footer {
+  background-color: #eeeeee;
 }
