@@ -39,16 +39,21 @@ body {
   justify-content: center;
 }
 
-.content-top {
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content__top {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
 }
 
 .header {
   font-weight: 700;
-  font-size: 1.2rem;
+  font-size: 18px;
 }
 
 .close-button {
