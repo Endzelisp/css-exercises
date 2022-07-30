@@ -17,14 +17,13 @@ img {
 
 .container {
   display: flex;
+  justify-content: center;
   gap: 52px;
+  text-align: center;
 }
 
 .container__item {
   width: 200px;
-  display: flex;
-  flex-direction: column;
-
 }
 
 /* do not edit this footer */
