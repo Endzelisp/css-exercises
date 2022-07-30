@@ -21,6 +21,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 15px;
 }
 
 .icon {
@@ -31,11 +32,22 @@ body {
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  margin: 15px; /* Check if later this can be simplified*/
+  margin-right: 15px;
   display: flex;
   flex-shrink: 0;
   align-items: center;
   justify-content: center;
+}
+
+.modal__content-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 1.2rem;
 }
 
 .close-button {
